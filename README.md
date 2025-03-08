@@ -1,12 +1,61 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Web Development Project 2 - Flashcards! Part 1*
 
-Currently, two official plugins are available:
+Submitted by: **Heritier KImbi**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This web app: **This web app is a flashcard-based learning platform designed to help users test and improve their knowledge on various topics. The app allows users to view flashcards, flip them to reveal answers, and navigate through them randomly. Each flashcard contains a question and answer pair, along with an optional image for visual learning.**
 
-## Expanding the ESLint configuration
+Time spent: **48** hours spent in total
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Required Features
+
+The following **required** functionality is completed:
+
+- [x] **The title of the card set and some information about it, such as a short description and the total number of cards are displayed**
+- [x] **A single card at a time is displayed, only showing one of the components of the information pair**
+- [x] **A list of card pairs is created**
+- [x] **Clicking on the card shows the corresponding component of the information pair**
+- [x] **Clicking the next button displays a random new card**
+
+The following **optional** features are implemented:
+
+- [x] Cards contains images in addition to or in place of text
+- [x] Cards have different visual styles such as color based on their category
+- [x] *visual style implemented*
+
+The following **additional** features are implemented:
+
+* [x] added flip and flip back button  to enhance the site's functionality!
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented required features:
+
+<img src='https://i.imgur.com/1ixpqm9.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+<!-- Replace this with whatever GIF tool you used! -->
+GIF created with ...  
+<!-- Recommended tools:
+[Kap](https://getkap.co/) for macOS
+[ScreenToGif](https://www.screentogif.com/) for Windows
+[peek](https://github.com/phw/peek) for Linux. -->
+
+## Notes
+
+one challenge I faced  when build this app was managing the flip state between components and ensuring proper updates when switching cards. Another issue was correctly handling local image paths to display images within the cards
+
+## License
+
+    Copyright 2025 Heritier kimbi
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
